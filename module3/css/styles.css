@@ -1,6 +1,3 @@
-* {
-  box-sizing: border-box;
-}
 
 body {
   font-size: 16px;
@@ -9,9 +6,67 @@ body {
   font-family: 'Oxygen', sans-serif;
 }
 
+/** HEADER **/
+#header-nav {
+  background-color:  green;
+  border-radius: 0;
+  border: 0;
+  height: 80px;
+}
+
+.navbar-brand {
+  padding-top: 15;
+}
+
+#nav-list {
+  margin-top: 3px;
+  background: purple;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: green;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+#nav-botton {
+  margin-top:24px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Dancing+Script|Droid+Sans|Lato|Oswald|Roboto', serif;
+  color: white;
+  font-size: 2em;
+  text-transform: auto;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  padding-top: 0px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#collapsable-nav li {
+  border-color: lightgreen;
+  text-align: center;
+  font-weight: normal;
+}
+
 .container h2 {
   text-align: center;
   color: yellow;
+}
+
+#menu-categories-title{
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-size: 2.5em;
 }
 
 #menu-categories-title + section {
@@ -25,44 +80,10 @@ body {
 }
 
 
-/** HEADER **/
-#header-nav {
-  background-color:  green;
-  border-radius: 0;
-  border: 0;
-  height: 80px;
-}
-
-.navbar-brand {
-  padding-top: 20px;
-}
-
-.navbar-brand h1 { /* Restaurant name */
-  font-family: 'Dancing+Script|Droid+Sans|Lato|Oswald|Roboto', serif;
-  color: white;
-  font-size: 2em;
-  text-transform: auto;
-  font-weight: bold;
-  text-shadow: 1px 1px 1px #222;
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: .75;
-}
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
-}
-
-#collapsable-nav li {
-  color: black;
-  border-bottom: 1px solid black;
-  text-align: center;
-  font-weight: bold;
-}
-
 .container {
-  margin-left: 40px;
-  padding-top: 10px;
-
+  margin-left: 0px;
+  padding-top: 4px;
+  width: 100%;
 }
 
 .navbar-brand p { /* PVT Ltd.*/
@@ -74,33 +95,15 @@ body {
   margin-right: 4px;
   color: white;
 }
-.navbar-brand p span { /* Star-K */
-  vertical-align: middle;
-}
-
+/*
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px white;
+}*/
 section {
   position: relative;
   overflow: hidden;
-  border: 1px solid black;
+  border: 1px solid purple;
   background-color: green;
 }
 
 /* Simple Responsive Framework. */
-.row {
-  width: 100%;
-}
-
-#nav-list {
-  margin-top: 3px;
-}
-#nav-list a {
-  color: white;
-  text-align: center;
-}
-#nav-list a:hover {
-  background: lightgreen;
-}
-#nav-list a span {
-  font-size: 1.8em;
-}
-
